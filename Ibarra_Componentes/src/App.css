@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.neon-button {
+  background-color: #ffffff; /* Establece el color de fondo blanco */
+  color: #ff00ff; /* Establece el color de texto morado */
+  font-size: 18px; /* Establece el tamaño de la fuente */
+  padding: 10px 20px; /* Establece el espaciado del botón */
+  border: none; /* Elimina el borde */
+  text-shadow: 0 0 10px #ff00ff; /* Agrega una sombra de texto morada */
+}
+
+.neon-button:hover {
+  background-color: #ff00ff; /* Cambia el color de fondo al morado cuando el cursor está sobre el botón */
+  color: #ffffff; /* Cambia el color de texto a blanco */
+  box-shadow: 0 0 20px #ff00ff; /* Agrega una sombra alrededor del botón */
+  transform: scale(1.1); /* Aumenta el tamaño del botón en un 10% */
+}
+
